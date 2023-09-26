@@ -1,806 +1,167 @@
 [
     {
-        "id": 91,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-10-01",
-        "product_id": 91,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.030Z",
-        "url": "http://localhost:3000/cards/91.json",
-        "partnumber": "9017302700-I2023",
-        "status": "in_progress",
-        "warn": true,
-        "color": "700",
-        "product": {
-            "id": 91,
-            "partnumber": "9017302700",
-            "name": "Awesome Iron Lamp",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 443,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 444,
-                "status": "done",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 445,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 446,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 4,
-                    "name": "OnModel"
-                }
-            },
-            {
-                "id": 447,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 2",
-            "date": "2023-10-01",
-            "string": "Wool",
-            "boolean": true,
-            "integer": 41
+      "id": 1,
+      "title": "Terminar el reporte de ventas",
+      "description": "Compilar datos de ventas del último trimestre y realizar gráficos de tendencias.",
+      "status": "TODO",
+      "priority": "HIGH",
+      "dueDate": "2023-10-15",
+      "assignee": "Juan Pérez",
+      "createdAt": "2023-09-10",
+      "updatedAt": "2023-09-12",
+      "labels": ["reportes", "ventas"],
+      "comments": [
+        {
+          "author": "María Soto",
+          "date": "2023-09-12",
+          "text": "No olvides incluir las ventas de la nueva línea de productos."
         }
+      ]
     },
     {
-        "id": 92,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-10-14",
-        "product_id": 92,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.067Z",
-        "url": "http://localhost:3000/cards/92.json",
-        "partnumber": "3411974600-I2023",
-        "status": "in_progress",
-        "warn": true,
-        "color": "600",
-        "product": {
-            "id": 92,
-            "partnumber": "3411974600",
-            "name": "Awesome Aluminum Shoes",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 448,
-                "status": "done",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 449,
-                "status": "done",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 450,
-                "status": "todo",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 451,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 2",
-            "date": "2023-10-14",
-            "string": "Wooden",
-            "boolean": false,
-            "integer": 49
+      "id": 2,
+      "title": "Revisar el código de la nueva función",
+      "description": "Verificar que la función cumpla con los requisitos y no tenga errores.",
+      "status": "IN PROGRESS",
+      "priority": "MEDIUM",
+      "dueDate": "2023-09-25",
+      "assignee": "Roberto Díaz",
+      "createdAt": "2023-09-11",
+      "updatedAt": "2023-09-20",
+      "labels": ["código", "revisión"],
+      "comments": [
+        {
+          "author": "Carla Lozano",
+          "date": "2023-09-20",
+          "text": "He encontrado un pequeño bug en el módulo de autenticación."
         }
-    },
+      ]
+    }, 
     {
-        "id": 93,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-09-13",
-        "product_id": 93,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.103Z",
-        "url": "http://localhost:3000/cards/93.json",
-        "partnumber": "5919532500-I2023",
-        "status": "in_progress",
-        "warn": false,
-        "color": "500",
-        "product": {
-            "id": 93,
-            "partnumber": "5919532500",
-            "name": "Awesome Linen Car",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 452,
-                "status": "done",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 453,
-                "status": "todo",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 454,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 455,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 4,
-                    "name": "OnModel"
-                }
-            },
-            {
-                "id": 456,
-                "status": "done",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 2",
-            "date": "2023-09-13",
-            "string": "Silk",
-            "boolean": true,
-            "integer": 85
-        }
-    },
-    {
-        "id": 94,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-10-18",
-        "product_id": 94,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.140Z",
-        "url": "http://localhost:3000/cards/94.json",
-        "partnumber": "4057057400-I2023",
-        "status": "in_progress",
-        "warn": true,
-        "color": "400",
-        "product": {
-            "id": 94,
-            "partnumber": "4057057400",
-            "name": "Gorgeous Marble Computer",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 457,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 458,
-                "status": "done",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 459,
-                "status": "todo",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 460,
-                "status": "todo",
-                "task_type": {
-                    "id": 4,
-                    "name": "OnModel"
-                }
-            },
-            {
-                "id": 461,
-                "status": "todo",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 2",
-            "date": "2023-10-18",
-            "string": "Leather",
-            "boolean": false,
-            "integer": 59
-        }
-    },
-    {
-        "id": 95,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-10-05",
-        "product_id": 95,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.178Z",
-        "url": "http://localhost:3000/cards/95.json",
-        "partnumber": "5106280100-I2023",
-        "status": "in_progress",
-        "warn": true,
-        "color": "100",
-        "product": {
-            "id": 95,
-            "partnumber": "5106280100",
-            "name": "Rustic Silk Clock",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 462,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 463,
-                "status": "done",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 464,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 465,
-                "status": "todo",
-                "task_type": {
-                    "id": 4,
-                    "name": "OnModel"
-                }
-            },
-            {
-                "id": 466,
-                "status": "todo",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 1",
-            "date": "2023-10-05",
-            "string": "Cotton",
-            "boolean": true,
-            "integer": 19
-        }
-    },
-    {
-        "id": 96,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-09-12",
-        "product_id": 96,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.218Z",
-        "url": "http://localhost:3000/cards/96.json",
-        "partnumber": "9933119300-I2023",
-        "status": "in_progress",
-        "warn": false,
-        "color": "300",
-        "product": {
-            "id": 96,
-            "partnumber": "9933119300",
-            "name": "Intelligent Concrete Gloves",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 467,
-                "status": "done",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 468,
-                "status": "todo",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 469,
-                "status": "todo",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 470,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 4,
-                    "name": "OnModel"
-                }
-            },
-            {
-                "id": 471,
-                "status": "done",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 1",
-            "date": "2023-09-12",
-            "string": "Bronze",
-            "boolean": true,
-            "integer": 26
-        }
-    },
-    {
-        "id": 97,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-09-08",
-        "product_id": 97,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.260Z",
-        "url": "http://localhost:3000/cards/97.json",
-        "partnumber": "1688112800-I2023",
-        "status": "in_progress",
-        "warn": false,
-        "color": "800",
-        "product": {
-            "id": 97,
-            "partnumber": "1688112800",
-            "name": "Small Paper Gloves",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 472,
-                "status": "todo",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 473,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 474,
-                "status": "todo",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 475,
-                "status": "todo",
-                "task_type": {
-                    "id": 4,
-                    "name": "OnModel"
-                }
-            },
-            {
-                "id": 476,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 1",
-            "date": "2023-09-08",
-            "string": "Rubber",
-            "boolean": false,
-            "integer": 72
-        }
-    },
-    {
-        "id": 98,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-10-17",
-        "product_id": 98,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.300Z",
-        "url": "http://localhost:3000/cards/98.json",
-        "partnumber": "7058704600-I2023",
-        "status": "in_progress",
-        "warn": true,
-        "color": "600",
-        "product": {
-            "id": 98,
-            "partnumber": "7058704600",
-            "name": "Rustic Iron Clock",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 477,
-                "status": "todo",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 478,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 479,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 480,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 4,
-                    "name": "OnModel"
-                }
-            },
-            {
-                "id": 481,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 2",
-            "date": "2023-10-17",
-            "string": "Rubber",
-            "boolean": false,
-            "integer": 96
-        }
-    },
-    {
-        "id": 99,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-09-13",
-        "product_id": 99,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.340Z",
-        "url": "http://localhost:3000/cards/99.json",
-        "partnumber": "3041322300-I2023",
-        "status": "in_progress",
-        "warn": false,
-        "color": "300",
-        "product": {
-            "id": 99,
-            "partnumber": "3041322300",
-            "name": "Synergistic Steel Wallet",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 482,
-                "status": "todo",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 483,
-                "status": "done",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 484,
-                "status": "todo",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 485,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 4,
-                    "name": "OnModel"
-                }
-            },
-            {
-                "id": 486,
-                "status": "todo",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 2",
-            "date": "2023-09-13",
-            "string": "Paper",
-            "boolean": true,
-            "integer": 43
-        }
-    },
-    {
-        "id": 100,
-        "season": "I",
-        "year": "2023",
-        "deadline": "2023-09-07",
-        "product_id": 100,
-        "board_id": 4,
-        "notes": null,
-        "manual": false,
-        "updated_at": "2023-09-27T22:00:00.376Z",
-        "url": "http://localhost:3000/cards/100.json",
-        "partnumber": "4615159900-I2023",
-        "status": "in_progress",
-        "warn": false,
-        "color": "900",
-        "product": {
-            "id": 100,
-            "partnumber": "4615159900",
-            "name": "Rustic Aluminum Gloves",
-            "img_url": "https://dummyimage.com/87x122/E4E7EB/fff\u0026text=+",
-            "product": null,
-            "section": null,
-            "product_line": null,
-            "purchase_group": null,
-            "family": null
-        },
-        "board": {
-            "id": 4,
-            "title": "BILLING Thu 28/09",
-            "deadline": "2023-09-28"
-        },
-        "tags": [],
-        "tasks": [
-            {
-                "id": 487,
-                "status": "todo",
-                "task_type": {
-                    "id": 1,
-                    "name": "Copies"
-                }
-            },
-            {
-                "id": 488,
-                "status": "todo",
-                "task_type": {
-                    "id": 2,
-                    "name": "ColorReference"
-                }
-            },
-            {
-                "id": 489,
-                "status": "done",
-                "task_type": {
-                    "id": 3,
-                    "name": "Samples"
-                }
-            },
-            {
-                "id": 490,
-                "status": "in_progress",
-                "task_type": {
-                    "id": 5,
-                    "name": "Flats"
-                }
-            }
-        ],
-        "custom_fields": {
-            "list_of_options": "Option 1",
-            "date": "2023-09-07",
-            "string": "Aluminum",
-            "boolean": false,
-            "integer": 64
-        }
-    }
-]
+        "id": 3,
+        "title": "Organizar la reunión de seguimiento",
+        "description": "Coordinar con el equipo para discutir los avances del proyecto X.",
+        "status": "TODO",
+        "priority": "LOW",
+        "dueDate": "2023-10-05",
+        "assignee": "Lucía Ramírez",
+        "createdAt": "2023-09-15",
+        "updatedAt": "2023-09-16",
+        "labels": ["reunión", "equipo"],
+        "comments": [
+          {
+            "author": "Pedro Gómez",
+            "date": "2023-09-16",
+            "text": "Necesito que se discutan los puntos pendientes de la última junta."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Actualizar la documentación",
+        "description": "Incluir cambios realizados en la versión 2.5 de la aplicación.",
+        "status": "DONE",
+        "priority": "MEDIUM",
+        "dueDate": "2023-09-18",
+        "assignee": "Carmen Solís",
+        "createdAt": "2023-09-10",
+        "updatedAt": "2023-09-17",
+        "labels": ["documentación", "app"],
+        "comments": [
+          {
+            "author": "Roberto Díaz",
+            "date": "2023-09-15",
+            "text": "También incluir detalles sobre la nueva función de exportación."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Resolver errores reportados",
+        "description": "Atender los tickets de errores enviados por el equipo de QA.",
+        "status": "IN PROGRESS",
+        "priority": "HIGH",
+        "dueDate": "2023-09-30",
+        "assignee": "Laura Navarro",
+        "createdAt": "2023-09-20",
+        "updatedAt": "2023-09-21",
+        "labels": ["errores", "QA"],
+        "comments": [
+          {
+            "author": "Miguel Torres",
+            "date": "2023-09-21",
+            "text": "El error en el módulo de registro persiste, revisar con urgencia."
+          }
+        ]
+      }, {
+        "id": 6,
+        "title": "Revisión de la interfaz de usuario",
+        "description": "Hacer un recorrido por la nueva interfaz y anotar posibles mejoras.",
+        "status": "TODO",
+        "priority": "MEDIUM",
+        "dueDate": "2023-09-29",
+        "assignee": "Javier Linares",
+        "createdAt": "2023-09-20",
+        "updatedAt": "2023-09-20",
+        "labels": ["UI", "review"],
+        "comments": [
+          {
+            "author": "Isabel Vega",
+            "date": "2023-09-21",
+            "text": "Es importante también revisar la responsividad en diferentes dispositivos."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Preparar presentación para clientes",
+        "description": "Crear slides sobre las características del nuevo producto.",
+        "status": "IN PROGRESS",
+        "priority": "HIGH",
+        "dueDate": "2023-10-01",
+        "assignee": "Alejandro Martín",
+        "createdAt": "2023-09-18",
+        "updatedAt": "2023-09-22",
+        "labels": ["slides", "clientes"],
+        "comments": [
+          {
+            "author": "Natalia Ramos",
+            "date": "2023-09-19",
+            "text": "Incluir feedback de la última reunión."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Backup de bases de datos",
+        "description": "Realizar copias de seguridad de todas las bases de datos antes del mantenimiento.",
+        "status": "DONE",
+        "priority": "LOW",
+        "dueDate": "2023-09-18",
+        "assignee": "Mauricio Rojas",
+        "createdAt": "2023-09-15",
+        "updatedAt": "2023-09-16",
+        "labels": ["database", "backup"],
+        "comments": [
+          {
+            "author": "Carlos Pineda",
+            "date": "2023-09-16",
+            "text": "Confirmo que todos los backups se han completado correctamente."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Actualizar el manual de usuario",
+        "description": "El manual de usuario actual no incluye las últimas funcionalidades agregadas.",
+        "status": "DONE",
+        "priority": "LOW",
+        "dueDate": "2023-09-30",
+        "assignee": "María Soto",
+        "createdAt": "2023-09-15",
+        "updatedAt": "2023-09-30",
+        "labels": ["documentación", "usuarios"],
+        "comments": []
+      },
+  ]
+  
